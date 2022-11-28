@@ -1,7 +1,7 @@
 Blockly.Blocks['senses_config'] = {
 	init: function () {
 		this.jsonInit({
-			"message0": "Senses IoT Config %1 UID %2 Device Key %3",
+			"message0": Blockly.Msg.SENSES_CONFIGS_MESSAGE,
 			"args0": [
 				{
 					"type": "input_dummy"
@@ -22,7 +22,7 @@ Blockly.Blocks['senses_config'] = {
 			"previousStatement": null,
 			"nextStatement": null,
 			"colour": 180,
-			"tooltip": "",
+			"tooltip": Blockly.Msg.SENSES_CONFIGS_TOOLTIP,
 			"helpUrl": ""
 		});
 	},
@@ -47,7 +47,7 @@ Blockly.Blocks['senses_config'] = {
 Blockly.Blocks['senses_on_connected'] = {
 	init: function () {
 		this.jsonInit({
-			"message0": "Senses IoT on Connected %1 %2",
+			"message0": Blockly.Msg.SENSES_ON_CONNECTED_MESSAGE,
 			"args0": [
 				{
 					"type": "input_dummy"
@@ -60,7 +60,7 @@ Blockly.Blocks['senses_on_connected'] = {
 			"previousStatement": null,
 			"nextStatement": null,
 			"colour": 180,
-			"tooltip": "",
+			"tooltip": Blockly.Msg.SENSES_ON_CONNECTED_TOOLTIP,
 			"helpUrl": ""
 		});
 	}
@@ -69,13 +69,13 @@ Blockly.Blocks['senses_on_connected'] = {
 Blockly.Blocks['senses_is_connect'] = {
 	init: function () {
 		this.jsonInit({
-			"message0": "Senses IoT is connected ?",
+			"message0": Blockly.Msg.SENSES_IS_CONNECTED_MESSAGE,
 			"output": [
 				"Number",
 				"Boolean"
 			],
 			"colour": 180,
-			"tooltip": "",
+			"tooltip": Blockly.Msg.SENSES_IS_CONNECTED_TOOLTIP,
 			"helpUrl": ""
 		});
 	}
@@ -84,7 +84,7 @@ Blockly.Blocks['senses_is_connect'] = {
 Blockly.Blocks['senses_send'] = {
 	init: function () {
 		this.jsonInit({
-			"message0": "Senses IoT slot %1 send %2",
+			"message0": Blockly.Msg.SENSES_SEND_MESSAGE,
 			"args0": [
 				{
 					"type": "input_value",
@@ -111,7 +111,7 @@ Blockly.Blocks['senses_send'] = {
 			"previousStatement": null,
 			"nextStatement": null,
 			"colour": 180,
-			"tooltip": "",
+			"tooltip": Blockly.Msg.SENSES_SEND_TOOLTIP,
 			"helpUrl": ""
 		});
 	},
@@ -136,7 +136,7 @@ Blockly.Blocks['senses_send'] = {
 Blockly.Blocks['senses_on_received'] = {
 	init: function () {
 		this.jsonInit({
-			"message0": "Senses IoT slot %1 on receive %2 %3",
+			"message0": Blockly.Msg.SENSES_ON_RECEIVE_MESSAGE,
 			"args0": [
 				{
 					"type": "input_value",
@@ -159,7 +159,7 @@ Blockly.Blocks['senses_on_received'] = {
 			"previousStatement": null,
 			"nextStatement": null,
 			"colour": 180,
-			"tooltip": "",
+			"tooltip": Blockly.Msg.SENSES_ON_RECEIVE_TOOLTIP,
 			"helpUrl": ""
 		});
 	},
@@ -179,13 +179,13 @@ Blockly.Blocks['senses_on_received'] = {
 Blockly.Blocks['senses_get_received_as_number'] = {
 	init: function () {
 		this.jsonInit({
-			"message0": "Senses IoT get received as number",
+			"message0": Blockly.Msg.SENSES_GET_RECEIVED_AS_NUMBER_MESSAGE,
 			"output": [
 				"Number",
 				"Boolean"
 			],
 			"colour": 180,
-			"tooltip": "",
+			"tooltip": Blockly.Msg.SENSES_GET_RECEIVED_AS_NUMBER_TOOLTIP,
 			"helpUrl": ""
 		});
 	}
@@ -194,13 +194,13 @@ Blockly.Blocks['senses_get_received_as_number'] = {
 Blockly.Blocks['senses_received_is_on'] = {
 	init: function () {
 		this.jsonInit({
-			"message0": "Senses IoT received is ON ?",
+			"message0": Blockly.Msg.SENSES_RECEIVED_IS_ON_MESSAGE,
 			"output": [
 				"Number",
 				"Boolean"
 			],
 			"colour": 180,
-			"tooltip": "",
+			"tooltip": Blockly.Msg.SENSES_RECEIVED_IS_ON_TOOLTIP,
 			"helpUrl": ""
 		});
 	}
